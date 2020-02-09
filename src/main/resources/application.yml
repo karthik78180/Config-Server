@@ -9,10 +9,9 @@ spring:
       server:
         git:
           uri:  file:///C:/Users/KAVUR/Desktop/config-server/New folder/config-repo-git
-  security:
-    user:
-      name: user1
-      password: changeme
+          force-pull: true
+          delete-untracked-branches: true
+          # search-paths:
 
 # disable security for end points
 #management:

@@ -1,0 +1,9 @@
+---
+encrypt.key: key
+# This is "password" encrypted using the "key" for encrypt.key.
+# Your value may be different.  User is the default "user".
+spring:
+  security:
+    user:
+      name: user1
+      password: '{cipher}dd1f385cdb88e782b4b1007db58c75a2929efa99a5577e0f93b0b7f2890ddf70'
