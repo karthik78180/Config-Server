@@ -9,6 +9,10 @@ spring:
       server:
         git:
           uri:  file:///C:/Users/KAVUR/Desktop/config-server/New folder/config-repo-git
+  security:
+    user:
+      name: user1
+      password: changeme
 
 # disable security for end points
 #management:
@@ -18,3 +22,4 @@ management:
   endpoints:
     web:
       base-path: /
+
